@@ -52,8 +52,8 @@ Weitere spezifische Anweisungen und Informationen finden Sie in den jeweiligen U
 
 ## Beitragende
 
+- Patricia Bombik
 - Pouya Nikbakhsh
-- 
 - 
 
 ## Lizenz
