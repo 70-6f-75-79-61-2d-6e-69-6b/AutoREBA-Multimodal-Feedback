@@ -21,7 +21,7 @@ Dieses Repository enthält den Code und die Ressourcen, die von der Multimodal F
 
 Die Hauptkomponenten des Repositories sind:
 
-- `Arduino`: Enthält den Arduino-Code, der auf dem Arduino Nano IoT ausgeführt wird. Dieser Code erfasst die Haltungsdaten und sendet sie an Unity.
+- [`Arduino`](Arduino): Enthält den Arduino-Code, der auf dem Arduino Nano IoT ausgeführt wird. Dieser Code erfasst die Haltungsdaten und sendet sie an Unity.
 - `Unity`: Enthält den Unity-Code und die Szenen, die für die Visualisierung des Biofeedbacks und die Verarbeitung der Daten verwendet werden. Dieser Code kommuniziert mit dem Arduino Nano IoT und gibt das entsprechende Feedback an den Benutzer.
 
 ## Anforderungen
