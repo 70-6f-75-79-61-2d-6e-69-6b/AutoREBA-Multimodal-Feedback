@@ -58,4 +58,4 @@ Weitere spezifische Anweisungen und Informationen finden Sie in den jeweiligen U
 
 ## Lizenz
 
-Dieses Projekt ist unter der [MIT-Lizenz](https://opensource.org/licenses/MIT) lizenziert. Weitere Informationen finden Sie in der `LICENSE`-Datei.
+Dieses Projekt ist unter der [MIT-Lizenz](https://opensource.org/licenses/MIT) lizenziert. Weitere Informationen finden Sie in der [`LICENSE`](LICENSE)-Datei.
