@@ -29,7 +29,7 @@ Die Hauptkomponenten des Repositories sind:
 Um das Projekt ausführen zu können, werden folgende Komponenten benötigt:
 
 - Arduino Nano IoT
-- Unity (Version X.X.X)
+- Unity (Version 2021.3.23f1)
 - Weitere Abhängigkeiten werden im jeweiligen Verzeichnis der Komponente angegeben
 
 ## Installation und Verwendung
