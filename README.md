@@ -50,11 +50,15 @@ Um das Projekt ausführen zu können, werden folgende Komponenten benötigt:
 
 Weitere spezifische Anweisungen und Informationen finden Sie in den jeweiligen Unterordnern des Repositorys.
 
+## Projektmanagement
+
+- Розенбергер
+
 ## Beitragende
 
-- Patricia Bombik
+- Patricia Bombik (ничего не сделал)
 - Pouya Nikbakhsh
-- 
+- Albin Hoti
 
 ## Lizenz
 
