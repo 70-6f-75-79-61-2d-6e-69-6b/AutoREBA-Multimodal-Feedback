@@ -1,65 +1,65 @@
 README.md
 
-# AutoREBA - Multimodal Feedback Group
+# AutoREBA - группа мультимодальной обратной связи
 
-## Projektbeschreibung
+## Описание проекта
 
-AutoREBA (Automatische Rapid Entire Body Assessment Score) ist ein großes Projekt im Bereich der Mensch-Computer-Interaktion. Das Ziel des Projekts ist es, eine Forschungsfrage im Bereich der Haltungsergonomie in Mixed Reality zu beantworten. Das übergeordnete Thema des Projekts ist "Multimodales Biofeedback zur Verbesserung der Haltungsergonomie in Mixed Reality".
+AutoREBA (Automatic Rapid Entire Body Assessment Score) - это большой проект в области человеко-компьютерного взаимодействия. Цель проекта - ответить на исследовательский вопрос в области постуральной эргономики в смешанной реальности. Общая тема проекта - "Мультимодальная биологическая обратная связь для улучшения постуральной эргономики в смешанной реальности".
 
-Das Projekt umfasst insgesamt ca 13 Studierende, die in Teamarbeit an der Lösung der Forschungsfrage arbeiten. Das Team besteht aus vier Gruppen, von denen jede aus drei Mitgliedern und einem Projektmanager besteht. Die Gruppen sind wie folgt aufgeteilt:
+В проекте участвуют в общей сложности около 13 студентов, работающих в командах над решением исследовательского вопроса. Команда состоит из четырех групп, каждая из которых состоит из трех человек и руководителя проекта. Группы делятся следующим образом:
 
-1. Computation und Visualization
-2. Multi Device Communication
-3. Ground Truth
-4. Multimodal Feedback (dieses Repository)
+1. вычисления и визуализация
+2. коммуникация между несколькими устройствами
+3. наземная истина
+4. мультимодальная обратная связь (данное хранилище)
 
-In der Multimodal Feedback Gruppe konzentrieren wir uns auf die Kommunikation zwischen dem Arduino Nano IoT und Unity. Unser Ziel ist es, mithilfe des Rapid Entire Body Assessment Scores dem Benutzer eines VR-Headsets durch visuelles, auditives und vibrationsbasiertes Feedback Informationen über seine Haltung zu geben.
+В группе "Мультимодальная обратная связь" мы сосредоточились на связи между Arduino Nano IoT и Unity. Наша цель - использовать Rapid Entire Body Assessment Score для предоставления пользователю гарнитуры VR информации о его осанке с помощью визуальной, слуховой и вибрационной обратной связи.
 
-## Repository-Inhalt
+## Содержание репозитория
 
-Dieses Repository enthält den Code und die Ressourcen, die von der Multimodal Feedback Gruppe entwickelt werden. Hier finden Sie die Implementierung der Kommunikation zwischen dem Arduino Nano IoT und Unity, um das Biofeedback zu ermöglichen.
+Этот репозиторий содержит код и ресурсы, разрабатываемые группой Multimodal Feedback. Здесь вы найдете реализацию связи между Arduino Nano IoT и Unity для обеспечения биологической обратной связи.
 
-Die Hauptkomponenten des Repositories sind:
+Основными компонентами репозитория являются:
 
-- [`Arduino`](Arduino): Enthält den Arduino-Code, der auf dem Arduino Nano IoT ausgeführt wird. Dieser Code erfasst die Haltungsdaten und sendet sie an Unity.
-- [`Unity`](Unity): Enthält den Unity-Code und die Szenen, die für die Visualisierung des Biofeedbacks und die Verarbeitung der Daten verwendet werden. Dieser Code kommuniziert mit dem Arduino Nano IoT und gibt das entsprechende Feedback an den Benutzer.
+- [`Arduino`](Arduino): Содержит код Arduino, который работает на Arduino Nano IoT. Этот код собирает данные о позе и отправляет их в Unity.
+- [`Unity`](Unity): содержит код Unity и сцены, используемые для визуализации биологической обратной связи и обработки данных. Этот код взаимодействует с Arduino Nano IoT и предоставляет пользователю соответствующую обратную связь.
 
-## Anforderungen
+## Требования
 
-Um das Projekt ausführen zu können, werden folgende Komponenten benötigt:
+Для запуска проекта необходимы следующие компоненты:
 
 - Arduino Nano IoT
-- Unity (Version 2021.3.23f1)
-- Weitere Abhängigkeiten werden im jeweiligen Verzeichnis der Komponente angegeben
+- Unity (версия 2021.3.23f1)
+- Дополнительные зависимости указаны в соответствующей директории компонента.
 
-## Installation und Verwendung
+## Установка и использование
 
-1. Klone das Repository auf deinen lokalen Computer:
+1. клонируйте репозиторий на свой локальный компьютер:
 
-   ```bash
+   ``bash
    git clone https://github.com/DeinBenutzername/AutoREBA-Multimodal-Feedback.git
    ```
 
-2. Öffne den `Arduino`-Ordner in der Arduino-Entwicklungsumgebung und lade den Code auf den Arduino Nano IoT.
+Откройте папку `Arduino` в среде разработки Arduino и загрузите код на Arduino Nano IoT. 3.
 
-3. Öffne das Unity-Projekt in Unity und navigiere zur entsprechenden Szene.
+Откройте проект Unity в Unity и перейдите к соответствующей сцене. 4.
 
-4. Verbinde den Arduino Nano IoT mit deinem Computer.
+Подключите Arduino Nano IoT к компьютеру. 5.
 
-5. Starte das Unity-Projekt und teste die Kommunikation zwischen Arduino und Unity.
+Запустите проект Unity и проверьте связь между Arduino и Unity.
 
-Weitere spezifische Anweisungen und Informationen finden Sie in den jeweiligen Unterordnern des Repositorys.
+Дальнейшие конкретные инструкции и информацию можно найти в соответствующих подкаталогах репозитория.
 
-## Projektmanagement
+## Управление проектом
 
 - Розенбергер
 
-## Beitragende
+## Соавторы
 
-- Patricia Bombik (ничего не сделал)
-- Pouya Nikbakhsh
-- Albin Hoti
+- Патрисия Бомбик (ничего не сделал)
+- Пуя Никбахш
+- Альбин Хоти
 
-## Lizenz
+## Лицензия
 
-Dieses Projekt ist unter der [MIT-Lizenz](https://opensource.org/licenses/MIT) lizenziert. Weitere Informationen finden Sie in der [`LICENSE`](LICENSE)-Datei.
+Этот проект лицензирован по [MIT License](https://opensource.org/licenses/MIT). Для получения дополнительной информации смотрите
